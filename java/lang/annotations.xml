@@ -1,0 +1,5 @@
+<root>
+    <item name='java.lang.String char charAt(int)'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

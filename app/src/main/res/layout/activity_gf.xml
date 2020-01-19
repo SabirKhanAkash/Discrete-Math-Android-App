@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/scrollviewid"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.ismail.discreteproblems.gf">
+
+        <EditText
+            android:layout_width="315dp"
+            android:layout_height="50dp"
+            android:id="@+id/dom"
+            android:hint="Enter Domain (A~E | Use Comma)"
+            android:textStyle="normal"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:layout_width="335dp"
+            android:layout_height="50dp"
+            android:id="@+id/codom"
+            android:hint="Enter Co-domain (1~5 | Use Comma)"
+            android:textStyle="normal"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Onto Function"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/rbpmn"
+            android:id="@+id/onto"
+            android:layout_marginBottom="13dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="55dp"
+            android:text="One-to-One Function"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/rbpmn"
+            android:id="@+id/onetoone"
+            />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fd"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

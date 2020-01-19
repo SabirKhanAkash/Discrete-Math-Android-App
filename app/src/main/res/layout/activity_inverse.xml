@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/scrollviewid"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        tools:context="com.example.ismail.discreteproblems.Inverse">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/inverse"
+            android:paddingTop="16dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:padding="20dp"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext6"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext7"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext8"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/itext9"
+            />
+
+    </LinearLayout>
+</ScrollView>
+

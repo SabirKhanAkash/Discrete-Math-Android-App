@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/scrollviewid"
+    android:background="#ffffff"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        tools:context="com.example.ismail.discreteproblems.Onto">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/surjective"
+            android:paddingTop="16dp"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:padding="20dp"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/ottext1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/ottext2"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/ottext3"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/ottext4"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/ottext5"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="20dp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/ottext6"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:paddingBottom="20dp"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:textColor="#000"
+            android:background="#ffffff"
+            android:text="@string/ottext7"
+            />
+
+    </LinearLayout>
+</ScrollView>

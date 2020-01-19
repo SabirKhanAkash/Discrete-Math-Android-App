@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/scrollviewid"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    tools:context="com.example.ismail.discreteproblems.gg">
+
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:id="@+id/n"
+            android:hint="How many nodes ? (1~5)"
+            android:textStyle="normal"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:layout_width="240dp"
+            android:layout_height="50dp"
+            android:id="@+id/e"
+            android:hint="How many edges ? (1~5)"
+            android:textStyle="normal"
+            android:layout_marginBottom="20dp"
+            android:textSize="20sp"
+            android:inputType="text"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Generate Graph"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="#000"
+            android:background="@drawable/rbpmn"
+            android:id="@+id/gg"
+            />
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/vnn"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="16dp"
+            />
+
+    </LinearLayout>
+</ScrollView>

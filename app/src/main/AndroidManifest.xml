@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ismail.discreteproblems"
+    android:installLocation="preferExternal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/dmicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".welcome_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".VennDiagram"
+            android:label="Venn Diagram" />
+        <activity
+            android:name=".DomainCoDomain"
+            android:label="Domain and Co-Domain" />
+        <activity
+            android:name=".Function"
+            android:label="Function" />
+        <activity
+            android:name=".Second_Activity"
+            android:label="Chapters" />
+        <activity
+            android:name=".Set_Activity"
+            android:label="Set" />
+        <activity
+            android:name=".OnetoOneActivity"
+            android:label="One to One Function" />
+        <activity
+            android:name=".IncDecActivity"
+            android:label="Increasing and Decreasing Function" />
+        <activity
+            android:name=".Onto"
+            android:label="Onto Function" />
+        <activity
+            android:name=".Inverse"
+            android:label="Inverse Function" />
+        <activity
+            android:name=".NumberTheory"
+            android:label="Number Theory" />
+        <activity
+            android:name=".ComAlgo"
+            android:label="Comparison of Algorithm" />
+        <activity
+            android:name=".TheIntDiv"
+            android:label="Integer and Division" />
+        <activity
+            android:name=".theoryone"
+            android:label="The Division Algorithm" />
+        <activity
+            android:name=".theorytwo"
+            android:label="Modular Arithmetic" />
+        <activity
+            android:name=".primes"
+            android:label="Primes" />
+        <activity
+            android:name=".theoryprime"
+            android:label="Theories of Prime" />
+        <activity
+            android:name=".crt"
+            android:label="Chinese Remainder Theorem" />
+        <activity
+            android:name=".gcd"
+            android:label="GCD" />
+        <activity
+            android:name=".lcm"
+            android:label="LCM" />
+        <activity
+            android:name=".plist"
+            android:label="Prime Related Problems" />
+        <activity
+            android:name=".pcheck"
+            android:label="Prime Check" />
+        <activity
+            android:name=".pmn"
+            android:label="Primes between two numbers" />
+        <activity
+            android:name=".pf"
+            android:label="Prime Factorization" />
+        <activity
+            android:name=".tp"
+            android:label="Twin prime numbers" />
+        <activity
+            android:name=".tpn"
+            android:label="Twin primes between 1 to n" />
+        <activity
+            android:name=".counting"
+            android:label="Counting" />
+        <activity
+            android:name=".sumrule"
+            android:label="The sum rule" />
+        <activity
+            android:name=".productrule"
+            android:label="The product rule" />
+        <activity
+            android:name=".tpp"
+            android:label="Pigeonhole Principle" />
+        <activity
+            android:name=".permut"
+            android:label="Permutation" />
+        <activity
+            android:name=".comb"
+            android:label="Combination" />
+        <activity
+            android:name=".fib"
+            android:label="n-th Fibonacci Sequence" />
+        <activity
+            android:name=".plogic"
+            android:label="Propositional Logic" />
+        <activity
+            android:name=".roi"
+            android:label="Rules of Inference" />
+        <activity
+            android:name=".pl"
+            android:label="Propositional Laws" />
+        <activity
+            android:name=".tt"
+            android:label="Truth Table" />
+        <activity
+            android:name=".ANDtt"
+            android:label="AND Operation" />
+        <activity
+            android:name=".ANDpdf2"
+            android:label="Truth Table for AND (2 Variables)" />
+        <activity
+            android:name=".ANDpdf3"
+            android:label="Truth Table for AND (3 Variables)" />
+        <activity
+            android:name=".ORtt"
+            android:label="OR Operation" />
+        <activity
+            android:name=".ORpdf2"
+            android:label="Truth Table for OR (2 Variables)" />
+        <activity
+            android:name=".ORpdf3"
+            android:label="Truth Table for OR (3 Variables)" />
+        <activity
+            android:name=".XORtt"
+            android:label="X-OR Operation" />
+        <activity
+            android:name=".XORpdf2"
+            android:label="Truth Table for X-OR (2 Variables)" />
+        <activity
+            android:name=".XORpdf3"
+            android:label="Truth Table for X-OR (3 Variables)" />
+        <activity
+            android:name=".XNORtt"
+            android:label="X-NOR Operation" />
+        <activity
+            android:name=".XNORpdf2"
+            android:label="Truth Table for X-NOR (2 Variables)" />
+        <activity
+            android:name=".XNORpdf3"
+            android:label="Truth Table for X-NOR (3 Variables)" />
+        <activity
+            android:name=".NOTtt"
+            android:label="NOT Operation" />
+        <activity
+            android:name=".CONtt"
+            android:label="Conditional Operation" />
+        <activity
+            android:name=".CONpdf2"
+            android:label="Truth Table (2 Variables)" />
+        <activity
+            android:name=".CONpdf3"
+            android:label="Truth Table (3 Variables)" />
+        <activity
+            android:name=".BICONtt"
+            android:label="Bi-conditional Operation" />
+        <activity
+            android:name=".BICONpdf2"
+            android:label="Truth Table (2 Variables)" />
+        <activity
+            android:name=".BICONpdf3"
+            android:label="Truth Table (3 Variables)" />
+        <activity
+            android:name=".lo"
+            android:label="Logical Operators" />
+        <activity
+            android:name=".graph"
+            android:label="Graph" />
+        <activity
+            android:name=".gterm"
+            android:label="Graph Terminology" />
+        <activity
+            android:name=".tog"
+            android:label="Different types of Graphs" />
+        <activity
+            android:name=".help"
+            android:label="Help" />
+        <activity
+            android:name=".gg"
+            android:label="Generating Graph" />
+        <activity
+            android:name=".bs"
+            android:label="Books and Slides" />
+        <activity
+            android:name=".dmbook"
+            android:label="Reference Book" />
+        <activity
+            android:name=".dmbooksol"
+            android:label="Solution" />
+        <activity
+            android:name=".dmslide"
+            android:label="Slides" />
+        <activity
+            android:name=".i"
+            android:label="Propositional Logic" />
+        <activity
+            android:name=".ii"
+            android:label="Set and Function" />
+        <activity
+            android:name=".iii"
+            android:label="The Fundamentals Algorithms, the Integers and Matrices" />
+        <activity
+            android:name=".iv"
+            android:label="Counting" />
+        <activity
+            android:name=".v"
+            android:label="Relations" />
+        <activity
+            android:name=".vi"
+            android:label="Graphs" />
+        <activity
+            android:name=".gf"
+            android:label="Function Diagram">
+        </activity>
+    </application>
+
+</manifest>

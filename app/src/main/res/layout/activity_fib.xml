@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:id="@+id/scrollviewid"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.ismail.discreteproblems.fib">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/fib"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:hint="Enter a number (n)"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/fibbutton"
+        android:text="Fibonacci Sequence to n"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:background="@drawable/rbfib"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="20dp"
+        android:id="@+id/fibtext"
+        android:background="#ffffff"
+        />
+
+</LinearLayout>
+</ScrollView>

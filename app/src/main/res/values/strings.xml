@@ -1,0 +1,298 @@
+<resources>
+    <string name="app_name">Discrete Mathematics</string>
+    <string name="et1">Enter set A</string>
+    <string name="et2">Enter set B</string>
+    <string name="ut">Union</string>
+    <string name="it">Intersection</string>
+    <string name="dt">Difference</string>
+    <string name="c1t">Cardinality of Set A</string>
+    <string name="c2t">Cardinality of Set B</string>
+    <string name="vt"> Venn Diagram </string>
+    <string name="unionText">Union</string>
+    <string name="intersectionText">Intersection</string>
+    <string name="differenceText">Difference</string>
+    <string name="dctext1">
+        Definitions 1:
+        - Let A and B be nonempty sets. A function from A to B is an assignment of
+         exactly one element of B to each element of A. It is written that f(a)=b if b is the
+         unique element of B assigned by the function f to the element a of A. If f is
+        a function from A to B, then, f:A -> B.
+    </string>
+
+    <string name="dctext2">
+        - Functions are sometimes called mappings or transformations.
+    </string>
+
+    <string name="dctext3">
+        Definitions 2:
+        If f is a function from A to B, it is said that A is the domain of f and B is then
+        co-domain of f. If f(a)=b, it is said that b is the image of a, and a is a preimage of
+        b. The range of f is the set of all images of A. Also, if f is a function from A to
+        B, it is said that f maps A to B.
+    </string>
+
+    <string name="dctext4">
+        Example 1: Let f be a function that assigns the last two bits of a bit string of
+        length 2 or greater to that string. For example, f(100001)=01. Then the domain
+        of f the set of all bit strings of length 2 or greater, and both the codomain and
+        range are the set {00,01,10,11}
+    </string>
+
+    <string name="dctext5">
+        Example 2: Let f:Z -> Z assign the square of an integer to this integer.
+        where the domain of f is the set of integers, we take the codmain of
+        f to be the domain of f is the set of integers, and the range of f is the set of integers
+        that are perfect squares, namely, {0,1,4,9,…}.
+    </string>
+
+    <string name="idtext1">
+        Definition:- A function f whose domain and codomain are subsets of the set of real numbers is called increasing if f (x) is less or equals to f (y),
+        and strictly increasing if f (x) is less than f (y), whenever x is less than y. x  and y are in the domain of f.
+    </string>
+
+    <string name="idtext2">
+        Similarly, f is called decreasing if f (x) is greater than or equals to f (y), and strictly
+        decreasing if f (x) is greater than f (y), whenever x is less than y and x and y are in the domain of f. (The word
+        strictly in this definition indicates a strict inequality.)
+    </string>
+
+    <string name="idtext3">
+        From these definitions, it can be shown that a function that is
+        either strictly increasing or strictly decreasing must be one-to-one. However, a function that is
+        increasing, but not strictly increasing, or decreasing, but not strictly decreasing, is not one-to-one.
+        For some functions the range and the codomain are equal. That is, every member of the
+        codomain is the image of some element of the domain. Functions with this property are called
+        onto functions.
+    </string>
+
+    <string name="ottext1">
+        Definitions :- A function f from A to B is called onto, or surjective if and only if for every
+        element b belongs to B, there is an element a belongs to A with f(a)=b. A function f is called a
+        surjection if it is onto.
+    </string>
+
+    <string name="ottext2">
+        Example 1:- Determine whether the function f from {a,b,c,d} to {1,2,3} with
+        f(a)=3, f(b)=2, f(c )=1, and f(d)=3 is onto.
+    </string>
+
+    <string name="ottext3">
+        Solution: Because all three elements of the codomain are images of elements of
+        domain, so it is onto.
+    </string>
+
+    <string name="ottext4">
+        Example 2:- Determine whether the function f(x)= X2 from the set of integers to
+        the set of integers is onto.
+    </string>
+
+    <string name="ottext5">
+        Solution: The function f(x)=X2 is not onto because there is no integer x with X2 = -
+        1 for instance.
+    </string>
+
+    <string name="ottext6">
+        Example 3:- Determine whether the function f(x)=x+1 from the set of real
+        numbers to itself is onto.
+    </string>
+
+    <string name="ottext7">
+        Solution: The function f(x)= x+1 is a onto because for every integer y there is an
+        integer x, such that f(x) = y.
+    </string>
+
+    <string name="itext1">
+        Definitions 9:- Let f be a one-to-one correspondence from the set A to the set B. The
+        inverse function of f is the function that assigns to an element b belonging
+        to B the unique element a in A such that f(a)=b. The inverse function of f is
+        denoted by f-1. Hence, f-1(b)=a when f(a)=b.
+    </string>
+
+    <string name="itext2">
+        - A one-to-one correspondence is called invertible because we can define an
+        inverse of the function. A function is not invertible if it is not invertible.
+    </string>
+
+    <string name="itext3">
+        - The function f is a one-to-one correspondence, or bijection, if it is both one-toone and onto. If f is not a bijection then the inverse does not exist.
+    </string>
+
+    <string name="itext4">
+        Example 16: Let f be the function from {a,b,c} to {1,2,3} with f(a)=3, f(b)=2, and
+        f(c )=1. Is f invertible, and if f is invertible, what is its inverse?
+    </string>
+
+    <string name="itext5">
+        Solution: Function f is invertible because it is one to one correspondence. The
+        inverse function f-1 reverses the correspondence given by f, so f-1(1) = c, f-1(2) = a
+        and f-1(3) = b.
+    </string>
+
+    <string name="itext6">
+        Example 17: Let f:Z→Z be such that f(x)=x+1 . Is f invertible, and if f is
+        invertible, what is its inverse?
+    </string>
+
+    <string name="itext7">
+        Solution: The function f has an inverse because it is one to one correspondence. To
+        reverse the correspondence, suppose that y is the image of x, so that y=x+1. then
+        x=y-1. This means that y-1 is the unique element of Z that is sent to y by f.
+        Consequently, f-1(y) = y-1.
+    </string>
+
+    <string name="itext8">
+        Example 18: Let f be the function from R to R with f(x)= X2. Is f invertible?
+    </string>
+
+    <string name="itext9">
+        Solution: f is not invertible. Because f(2)=f(-2)=4, f is not one to one function.
+    </string>
+
+    <string name="catext1">
+        Time Complexity: Determine the approximate number of operations required
+        to solve a problem of size n.
+    </string>
+
+    <string name="catext2">
+        Space Complexity: Determine the approximate memory required to solve a
+        problem of size n.
+    </string>
+
+    <string name="catext3">
+        Time Complexity -
+    </string>
+
+    <string name="catext4">
+        - Use the Big-O notation
+    </string>
+
+    <string name="catext5">
+        - Ignore house keeping
+    </string>
+
+    <string name="catext6">
+        - Count the expensive operations only
+    </string>
+
+    <string name="catext7">
+        Basic operations -
+    </string>
+
+    <string name="catext8">
+        - searching algorithms - key comparisons
+    </string>
+
+    <string name="catext9">
+        - sorting algorithms - list component comparisons
+    </string>
+
+    <string name="catext10">
+        - numerical algorithms - floating point ops. (flops)
+    </string>
+
+    <string name="catext11">
+        - multiplications/divisions and/or additions/subtractions
+    </string>
+
+    <string name="catext12">
+        Worst Case: maximum number of operations. It is denoted as O(n) where n is the number of operations.
+    </string>
+
+    <string name="catext13">
+        Average Case: mean number of operations assuming an input probability
+        distribution. It is denoted as Theta(n) where n is the number of operations.
+    </string>
+
+    <string name="catext14">
+        Best Case: minimum number of operation(s). It is denoted as Omega(n) where n is the number of operation(s).
+    </string>
+
+    <string name="t1text1">
+        Theorem 1:- Let a, b, c be integers. Then,
+    </string>
+
+    <string name="t1text2">
+        1) if a|b and a|c, then a|(b+c)
+    </string>
+
+    <string name="t1text3">
+        2) if a|b, then a|bc for all integers c
+    </string>
+
+    <string name="t1text4">
+        3) if a|b and b|c, then,
+    </string>
+
+    <string name="t1text5">
+        Corollary 1:- If a, b, and c are integers such that a|b and a|c, then a|mb+nc whenever m and n are integers.
+    </string>
+
+    <string name="t1text6">
+        Theorem 2:- Let a be an integer and d a positive integer. Then there are unique integers q and r, where r is greater than or equals to 0 and less than d , such that a=dq+r.
+        In the equality given in the division algorithm, d is called the divisor, a is called the dividend, q is called the quotient, and r is called the remainder.
+        This notation is used to express the quotient and remainder: q = a div d, r = a mod d.
+    </string>
+
+    <string name="t2text1">
+        Theorem 3:- Let a and b be integers, and let m be a positive integer.
+        Then a≡b(mod m) if and only if a mod m = b mod m.
+        If a and b are integers and m is a positive integer, then a is congruent to b modulo m if m divides a-b. a≡b(mod m)
+    </string>
+
+    <string name="t2text2">
+        Theorem 4:- Let m be a positive integer. The integers a and b are congruent modulo m iff there is an integer k such that a=b+km.
+    </string>
+
+    <string name="t2text3">
+        Theorem 5:- Let m be a positive integer. If a≡b(mod m) and c≡d(mod m), then a+c≡b+d(mod m) and ac≡bd(mod m).
+    </string>
+
+    <string name="pttext1">
+        Definition of Prime: A positive integer p greater than 1 is called prime if the only positive factors of p are 1 and p.
+    </string>
+
+    <string name="pttext2">
+        Definition of Composite: Integer n is composite if and only if there exists an integer a such that a|n and a is greater than 1 and less than n.
+    </string>
+
+    <string name="pttext3">
+        Theorem 1: Every positive integer greater than 1 can be written uniquely as a prime or as the product of two or more primes where the prime factors are written in order of nondecreasing size.
+    </string>
+
+    <string name="pttext4">
+        Theorem 2: If n is a composite integer, then n has a prime divisor less than or equal to square root of n.
+    </string>
+
+    <string name="pttext5">
+        Theorem 3: There are infinitely many primes.
+    </string>
+
+    <string name="pttext6">
+        Mersenne primes - 2^p − 1 , where p is also prime
+    </string>
+
+    <string name="pttext7">
+        Theorem 4: The ratio of the number of primes not exceeding x and x/ln x approaches 1 as x grows without bound.
+    </string>
+
+    <string name="pttext8">
+        Theorem 5: Let a and b be positive integers. Then,
+    </string>
+
+    <string name="pttext9">
+         ab = gcd(a,b)*lcm(a,b)
+    </string>
+
+    <string name="gcdtext">
+        Enter a number
+    </string>
+
+    <string name="lcmtext">
+        Enter a number
+    </string>
+
+    <string name="pctext">
+        Enter a number
+    </string>
+
+</resources>

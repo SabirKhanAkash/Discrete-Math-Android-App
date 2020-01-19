@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7280d1</color>
+    <color name="colorPrimaryDark">#6572be</color>
+    <color name="colorAccent">#200f15</color>
+    <color name="unibt">#69ed74</color>
+    <color name="inbt">#57e99e</color>
+    <color name="diffbt">#57e9ce</color>
+    <color name="car1bt">#57b1e9</color>
+    <color name="car2bt">#7985f1</color>
+    <color name="venbt">#cff259</color>
+    <color name="pcheckbt">#75d4cc</color>
+    <color name="pmnbt">#f4d77a</color>
+    <color name="pfbt">#8bd26d</color>
+    <color name="twnbt">#7593ff</color>
+    <color name="twnmnbt">#8481cf</color>
+    <color name="gcdbt">#59a8c2</color>
+    <color name="lcmbt">#59a8c2</color>
+    <color name="fibbt">#f26b72</color>
+    <color name="permbt">#b574ca</color>
+    <color name="combbt">#e8f54f</color>
+    <color name="truthbt">#71c668</color>
+    <color name="conbt">#7280d1</color>
+</resources>

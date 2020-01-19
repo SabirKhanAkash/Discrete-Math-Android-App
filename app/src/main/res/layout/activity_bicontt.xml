@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    tools:context="com.example.ismail.discreteproblems.BICONtt">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/bicontt"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:hint="How many Variables? (2/3)"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:id="@+id/biconttbutton"
+        android:text="Truth Table"
+        android:textSize="18sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:background="@drawable/rbtruth"
+        />
+
+</LinearLayout>

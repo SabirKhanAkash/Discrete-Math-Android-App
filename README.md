@@ -1,2 +1,1 @@
-# Discrete Math Android App
- 
+# DiscreteProblems

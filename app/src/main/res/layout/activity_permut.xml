@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.ismail.discreteproblems.permut">
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/np"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:hint="@string/pctext"
+        android:inputType="text"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_width="200dp"
+        android:id="@+id/rp"
+        android:layout_height="50dp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:hint="@string/pctext"
+        android:inputType="text"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        />
+
+    <Button
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:id="@+id/nprbutton"
+        android:text="P(n,r)"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_button"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:paddingLeft="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#ffffff"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        android:id="@+id/npr"
+        />
+
+</LinearLayout>

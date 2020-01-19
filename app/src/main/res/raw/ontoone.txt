@@ -1,0 +1,22 @@
+﻿Definitions :- A function f is said to be one-to-one, or injective, if and only if f(a)=f(b)
+implies a=b for all a and b in the domain of f. A function is said to be an injection if it is one-to-one.
+- Note that f is one-to-one if and only if f(a) ≠ f(b) whenever s a ≠ b.
+
+
+Example 1: Determine whether the function f from {a,b,c,d} to {1,2,3,4,5} with
+f(a)=4, f(b)=5, f(c )=1, and f(d)=3 is one-to-one.
+
+Solution: Function f is one to one because f takes on different values at the four
+elements of its domain.
+
+Example 2: Determine whether the function f(x)=X2 from the set of integers to the
+set of integers is one-to-one.
+
+Solution: The function f(x)=X2 is not one to one because for instance, f(1)=1 and
+f(-1)= 1, but 1≠ -1.
+
+Example 3: Determine whether the function f(x)=x+1 from the set of real
+numbers to itself is one-to-one.
+
+Solution: The function f(x)= x+1 is a one to one.to demonstrate this, note that x+1 ≠
+y+1 when x ≠ -y.

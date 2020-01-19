@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Reference Book and Slides"
+        android:id="@+id/bookid"
+        />
+    <item android:title="About"
+        android:id="@+id/aboutid"
+        />
+    <item android:title="Help"
+        android:id="@+id/helpid"
+        />
+    <item android:title="Share"
+        android:id="@+id/shareid"
+        />
+    <item android:title="Check for Updates"
+        android:id="@+id/cfuid"
+        />
+    <item android:title="Exit"
+        android:id="@+id/exitid"
+        />
+
+
+</menu>
